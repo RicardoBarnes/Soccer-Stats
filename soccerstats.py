@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Your Football Data API key
-API_KEY = '9ea5c1715f214b32a7af98b43e9b4b74'
+API_KEY = ''
 TEAM_IDS = [64, 68]  # Example: Liverpool FC and Manchester City
 TEAM_NAMES = ["Liverpool FC", "Manchester City"]  # Names of the teams
 SEASON = '2023'  # Specify the season
@@ -86,3 +86,4 @@ plt.pie([metrics_team2[2], metrics_team2[3], metrics_team2[4]], labels=["Wins", 
 plt.title(f"{TEAM_NAMES[1]} Match Results Distribution ({SEASON})")
 
 plt.show()
+
